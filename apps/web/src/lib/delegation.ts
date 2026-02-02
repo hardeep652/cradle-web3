@@ -10,7 +10,7 @@ import {
     getContract,
 } from 'viem';
 import { CONTRACTS, TRADING_ABI, ZERO_ADDRESS, type SupportedNetwork } from './constants';
-import type { DelegationStatus, TransactionResult } from './types';
+import type { DelegationStatus, TransactionResult } from '../types';
 
 /**
  * Get the trading contract for a specific network

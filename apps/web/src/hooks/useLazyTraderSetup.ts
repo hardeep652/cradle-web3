@@ -19,7 +19,7 @@ import {
     checkTelegramStatus,
     createLazyTraderAgent,
     checkSetup,
-} from '../api';
+} from '../lib';
 
 interface UseLazyTraderSetupOptions {
     userWallet: string | undefined;

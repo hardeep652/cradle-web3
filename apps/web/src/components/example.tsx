@@ -1,6 +1,7 @@
 'use client';
 
-import { useLazyTraderSetup, type TradingPreferences } from './index';
+import { useLazyTraderSetup } from '../hooks';
+import type { TradingPreferences } from '../types';
 
 interface ExampleLazyTraderSetupProps {
   userWallet: string | undefined;

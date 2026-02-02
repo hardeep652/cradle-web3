@@ -17,7 +17,7 @@ import {
     DEFAULT_APPROVAL_AMOUNT,
     type SupportedNetwork,
 } from './constants';
-import type { ApprovalStatus, TransactionResult } from './types';
+import type { ApprovalStatus, TransactionResult } from '../types';
 
 /**
  * Get the USDC contract for a specific network

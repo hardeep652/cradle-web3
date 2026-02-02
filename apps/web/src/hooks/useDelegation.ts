@@ -5,9 +5,9 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import type { Address, PublicClient, WalletClient } from 'viem';
-import { checkDelegation, enableDelegation, removeDelegation } from '../delegation';
+import { checkDelegation, enableDelegation, removeDelegation } from '../lib/delegation';
 import type { DelegationStatus, TransactionState } from '../types';
-import { ZERO_ADDRESS, type SupportedNetwork } from '../constants';
+import { ZERO_ADDRESS, type SupportedNetwork } from '../lib/constants';
 
 export interface UseDelegationOptions {
     publicClient: PublicClient;

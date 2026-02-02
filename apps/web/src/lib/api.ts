@@ -11,7 +11,7 @@ import type {
   CheckSetupResponse,
   TradingPreferences,
   LazyTraderApiOptions,
-} from './types';
+} from '../types';
 
 const DEFAULT_BASE_URL = '/api/maxxit';
 

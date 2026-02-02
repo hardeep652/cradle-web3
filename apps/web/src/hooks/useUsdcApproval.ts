@@ -5,10 +5,10 @@
 
 import { useState, useCallback, useEffect } from 'react';
 import type { Address, PublicClient, WalletClient } from 'viem';
-import { checkAllowance, approveUsdc, revokeUsdcApproval, getUsdcBalance } from '../approval';
-import { DEFAULT_APPROVAL_AMOUNT } from '../constants';
+import { checkAllowance, approveUsdc, revokeUsdcApproval, getUsdcBalance } from '../lib/approval';
+import { DEFAULT_APPROVAL_AMOUNT } from '../lib/constants';
 import type { ApprovalStatus, TransactionState } from '../types';
-import type { SupportedNetwork } from '../constants';
+import type { SupportedNetwork } from '../lib/constants';
 
 export interface UseUsdcApprovalOptions {
     publicClient: PublicClient;

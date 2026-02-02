@@ -51,7 +51,7 @@ export type {
     WalletAuthConfig,
     WalletStatus,
     WalletAuthState,
-} from './types';
+} from '../types';
 export {
     createWalletConfig,
     createConfigFromEnv,
@@ -59,11 +59,11 @@ export {
 export {
     WalletProvider,
     type WalletProviderProps,
-} from './providers';
+} from '../components/providers';
 export {
     useWalletAuth,
     type UseWalletAuthReturn,
-} from './hooks';
+} from '../hooks';
 export { ConnectButton } from '@rainbow-me/rainbowkit';
 export {
     useAccount,
@@ -73,11 +73,11 @@ export {
     useWalletClient,
 } from 'wagmi';
 export {
-  generateOstiumAgent,
-  generateTelegramLink,
-  checkTelegramStatus,
-  createLazyTraderAgent,
-  checkSetup,
+    generateOstiumAgent,
+    generateTelegramLink,
+    checkTelegramStatus,
+    createLazyTraderAgent,
+    checkSetup,
 } from './api';
 export {
     checkDelegation,
